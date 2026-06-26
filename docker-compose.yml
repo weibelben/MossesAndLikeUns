@@ -1,0 +1,6 @@
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "8080:80"          # reachable on your LAN at http://<server-ip>:8080
+    restart: unless-stopped

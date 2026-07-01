@@ -5,7 +5,7 @@ services:
     hostname: nebuchadnezzar-subnet-router
     network_mode: host
     environment:
-      - TS_AUTHKEY=tskey-auth-kFrMm8tFDE11CNTRL-gpFemBa2Hh4oCcV1tW1hg4dsV1eZb5Yi
+      - TS_AUTHKEY=tskey-auth-XXXXXXXXXXXX
       - TS_EXTRA_ARGS=--advertise-exit-node --advertise-routes=192.168.3.0/24 --accept-dns=false
       - TS_STATE_DIR=/var/lib/tailscale
       - TS_USERSPACE=false
